@@ -7,7 +7,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/amPerl/egui-phosphor"
 
 [dependencies]
-egui = { path = "../../egui/crates/egui", default-features = false }
+egui = { path = "../egui/crates/egui", default-features = false }
 
 [features]
 default = ["regular"]
@@ -18,7 +18,7 @@ bold = []
 fill = []
 
 [dev-dependencies]
-eframe = { path = "../../egui/crates/eframe" }
+eframe = { path = "../egui/crates/eframe" }
 
 [[example]]
 name = "multiple_variants"
